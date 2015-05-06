@@ -1,0 +1,32 @@
+{
+  "name": "sails-generate-policy",
+  "version": "0.1.0",
+  "description": "Generate a policy for Sails.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "policy",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "Yann Bertrand <yann@bertrand.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "policy",
+    "behavior": "default implementation of `sails generate policy`",
+    "sailsVersion": "~0.10.0"
+  }
+}

@@ -1,0 +1,30 @@
+<% /*
+ * Boilerplate policy
+ *
+ * This is the template used when generating policies via the CLI
+ * e.g. `sails generate policy foo`
+ */
+%><% if (lang === 'js') { %>/**
+ * <%= entity %>
+ *
+ * @module      :: Policy
+ * @description :: TODO: You might write a short summary of how this policy works and what it represents here.
+ * @help        :: http://sailsjs.org/#!/documentation/concepts/Policies
+ */
+module.exports = function(req, res, next) {
+
+  // TODO
+  return next();
+
+};
+<% } else if (lang === 'coffee') { %> #
+ # <%= entity %>
+ #
+ # @module      :: Policy
+ # @description :: TODO: You might write a short summary of how this policy works and what it represents here.
+ # @help        :: http://sailsjs.org/#!/documentation/concepts/Policies
+module.exports = (req, res, next) -->
+  
+  # TODO
+  return next()
+<%}%>
