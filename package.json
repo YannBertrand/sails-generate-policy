@@ -1,10 +1,11 @@
 {
   "name": "sails-generate-policy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a policy for Sails.",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YannBertrand/sails-generate-policy.git"
   },
   "keywords": [
     "policy",
